@@ -9,7 +9,7 @@
 #import "SDTDictionary.h"
 #import "UIKit/UITextChecker.h"
 #import "UIKit/UIReferenceLibraryViewController.h"
-#import "SVProgressHUD.h"
+//#import "SVProgressHUD.h"
 
 # pragma mark - NSMutableSet ReadWriteAsTXT addition
 
@@ -136,7 +136,7 @@
 - (void)restoreCacheDueToMemoryWarningHandlingIfNeeded {
   if (!self.validTermsCache || !self.invalidTermsCacheFilePath) {
     [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-      [SVProgressHUD showWithMaskType:SVProgressHUDMaskTypeBlack];
+//      [SVProgressHUD showWithMaskType:SVProgressHUDMaskTypeBlack];
     }];
 
     NSOperationQueue *backgroundQueue = [[NSOperationQueue alloc] init];
@@ -144,7 +144,7 @@
       [self reloadCacheIfNeeded];
 
       [[NSOperationQueue mainQueue] addOperationWithBlock:^{
-        [SVProgressHUD dismiss];
+//        [SVProgressHUD dismiss];
       }];
     }];
   }

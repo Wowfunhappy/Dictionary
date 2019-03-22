@@ -1,25 +1,17 @@
-//
-//  AppDelegate.m
-//  Dictionary
-//
-//  Created by Feng Ye on 11/18/11.
-//  Copyright (c) 2011 @forresty. All rights reserved.
-//
-
 #import "SDTAppDelegate.h"
 #import "SDTMainViewController.h"
 #import "SDTDictionary.h"
 #import "SDTDictionaryViewDefinitions.h"
-#import "Flurry.h"
-#import "TestFlight.h"
+//#import "Flurry.h"
+//#import "TestFlight.h"
 
 @implementation SDTAppDelegate
-
+@synthesize background;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-  [Flurry startSession:@"29W38MKGVJXS7Y92C4ZX"];
-  [TestFlight takeOff:@"3f3a4a0b-47b0-4a35-9049-f69b2c82aa77"];
+//  [Flurry startSession:@"29W38MKGVJXS7Y92C4ZX"];
+//  [TestFlight takeOff:@"3f3a4a0b-47b0-4a35-9049-f69b2c82aa77"];
 
   [self copyCacheIfNeeded];
 
@@ -29,7 +21,17 @@
   self.window.rootViewController = [[SDTMainViewController alloc] init];
   self.window.backgroundColor = [UIColor whiteColor];
   [self.window makeKeyAndVisible];
-
+    
+//    self.window.clipsToBounds =YES;
+    
+    int statusBarHeight = [[UIApplication sharedApplication] statusBarFrame].size.height;
+    [application setStatusBarStyle:UIStatusBarStyleLightContent];
+    self.window.frame =  CGRectMake(0,statusBarHeight,self.window.frame.size.width,self.window.frame.size.height-statusBarHeight);
+    self.window.bounds = CGRectMake(0, statusBarHeight, self.window.frame.size.width, self.window.frame.size.height);
+    
+//    UIView *FakeNavBar = [[UIView alloc] initWithFrame:CGRectMake(0, 0, self.window.frame.size.width, statusBarHeight)];
+//    FakeNavBar.backgroundColor = [UIColor whiteColor];
+    
   return YES;
 }
 

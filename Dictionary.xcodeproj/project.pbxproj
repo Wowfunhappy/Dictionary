@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2659B76977BD40CB8C3FF315 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 206B5FAD4EF0452B9D4F0FCB /* libPods.a */; };
-		6813ACD51791120A00077BA4 /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6813ACD41791120A00077BA4 /* Default-Landscape~ipad.png */; };
-		6813ACD71791120D00077BA4 /* Default-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6813ACD61791120D00077BA4 /* Default-Landscape@2x~ipad.png */; };
-		6813ACD91791122100077BA4 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6813ACD81791122100077BA4 /* Default-Portrait~ipad.png */; };
-		6813ACDB1791122800077BA4 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 6813ACDA1791122800077BA4 /* Default-Portrait@2x~ipad.png */; };
+		1C6E788DDB6DB46AE103294E /* libPods-DictionaryTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 391AAB18E4A43713746F57C0 /* libPods-DictionaryTests.a */; };
 		683A6A2814760152004C3F8C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683A6A2714760152004C3F8C /* UIKit.framework */; };
 		683A6A2A14760152004C3F8C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683A6A2914760152004C3F8C /* Foundation.framework */; };
 		683A6A2C14760152004C3F8C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683A6A2B14760152004C3F8C /* CoreGraphics.framework */; };
@@ -31,15 +27,11 @@
 		68EECF921781D57C000166FD /* SDTDictionaryTermCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EECF911781D57C000166FD /* SDTDictionaryTermCell.m */; };
 		68EECF971781E04A000166FD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 683A6A2B14760152004C3F8C /* CoreGraphics.framework */; };
 		68EECF9A1781F11E000166FD /* FFSolidColorTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68EECF991781F11E000166FD /* FFSolidColorTableHeaderView.m */; };
-		68EECF9D17820536000166FD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EECF9B17820536000166FD /* Icon.png */; };
-		68EECF9E17820536000166FD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EECF9C17820536000166FD /* Icon@2x.png */; };
-		68EECFA817820883000166FD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EECFA517820883000166FD /* Default.png */; };
-		68EECFA917820883000166FD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EECFA617820883000166FD /* Default-568h@2x.png */; };
-		68EECFAA17820883000166FD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 68EECFA717820883000166FD /* Default@2x.png */; };
 		68FDC3171781424A00D167CC /* SDTLookupResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FDC3161781424A00D167CC /* SDTLookupResponse.m */; };
 		68FDC31A1781764500D167CC /* invalidTerms.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68FDC3181781764500D167CC /* invalidTerms.txt */; };
 		68FDC31B1781764500D167CC /* validTerms.txt in Resources */ = {isa = PBXBuildFile; fileRef = 68FDC3191781764500D167CC /* validTerms.txt */; };
 		68FDC32417817F7800D167CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68FDC32317817F7800D167CC /* SystemConfiguration.framework */; };
+		ABC3DCBC224400990039AFDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC3DCBB224400990039AFDB /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,11 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		206B5FAD4EF0452B9D4F0FCB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6813ACD41791120A00077BA4 /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "../Default-Landscape~ipad.png"; sourceTree = "<group>"; };
-		6813ACD61791120D00077BA4 /* Default-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape@2x~ipad.png"; path = "../Default-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
-		6813ACD81791122100077BA4 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait~ipad.png"; path = "../Default-Portrait~ipad.png"; sourceTree = "<group>"; };
-		6813ACDA1791122800077BA4 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "../Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		391AAB18E4A43713746F57C0 /* libPods-DictionaryTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DictionaryTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		495D3FD0FBFCAA937DB35BF2 /* Pods-Dictionary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dictionary.release.xcconfig"; path = "Target Support Files/Pods-Dictionary/Pods-Dictionary.release.xcconfig"; sourceTree = "<group>"; };
+		4A6558AFC99F6537500C51F7 /* libPods-Dictionary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Dictionary.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		683A6A2314760152004C3F8C /* Dictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		683A6A2714760152004C3F8C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		683A6A2914760152004C3F8C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,17 +77,17 @@
 		68EECF941781D679000166FD /* SDTDictionaryViewDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTDictionaryViewDefinitions.h; sourceTree = "<group>"; };
 		68EECF981781F11E000166FD /* FFSolidColorTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFSolidColorTableHeaderView.h; sourceTree = "<group>"; };
 		68EECF991781F11E000166FD /* FFSolidColorTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFSolidColorTableHeaderView.m; sourceTree = "<group>"; };
-		68EECF9B17820536000166FD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
-		68EECF9C17820536000166FD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
-		68EECFA517820883000166FD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
-		68EECFA617820883000166FD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
-		68EECFA717820883000166FD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		68FDC3151781424A00D167CC /* SDTLookupResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDTLookupResponse.h; sourceTree = "<group>"; };
 		68FDC3161781424A00D167CC /* SDTLookupResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDTLookupResponse.m; sourceTree = "<group>"; };
 		68FDC3181781764500D167CC /* invalidTerms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = invalidTerms.txt; path = ../invalidTerms.txt; sourceTree = "<group>"; };
 		68FDC3191781764500D167CC /* validTerms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = validTerms.txt; path = ../validTerms.txt; sourceTree = "<group>"; };
 		68FDC32317817F7800D167CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		AA4BCB22A4CB48EEAC5E0BC8 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		7DEE5374FD5DD678667A0AAB /* Pods-DictionaryTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DictionaryTests.release.xcconfig"; path = "Target Support Files/Pods-DictionaryTests/Pods-DictionaryTests.release.xcconfig"; sourceTree = "<group>"; };
+		9BE6809CCB019B540B8FFB5B /* Pods-Dictionary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dictionary.debug.xcconfig"; path = "Target Support Files/Pods-Dictionary/Pods-Dictionary.debug.xcconfig"; sourceTree = "<group>"; };
+		ABC3DCBB224400990039AFDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C16AFC41DD8D909EC8891E37 /* Pods-Dictionary.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dictionary.profile.xcconfig"; path = "Target Support Files/Pods-Dictionary/Pods-Dictionary.profile.xcconfig"; sourceTree = "<group>"; };
+		C66EE050DB903DA8D8D6C186 /* Pods-DictionaryTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DictionaryTests.debug.xcconfig"; path = "Target Support Files/Pods-DictionaryTests/Pods-DictionaryTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB282FE20D35254B2A8B3C81 /* Pods-DictionaryTests.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DictionaryTests.profile.xcconfig"; path = "Target Support Files/Pods-DictionaryTests/Pods-DictionaryTests.profile.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +99,6 @@
 				683A6A2814760152004C3F8C /* UIKit.framework in Frameworks */,
 				683A6A2A14760152004C3F8C /* Foundation.framework in Frameworks */,
 				683A6A2C14760152004C3F8C /* CoreGraphics.framework in Frameworks */,
-				2659B76977BD40CB8C3FF315 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +110,7 @@
 				683A6A4514760152004C3F8C /* SenTestingKit.framework in Frameworks */,
 				683A6A4614760152004C3F8C /* UIKit.framework in Frameworks */,
 				683A6A4714760152004C3F8C /* Foundation.framework in Frameworks */,
+				1C6E788DDB6DB46AE103294E /* libPods-DictionaryTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +133,7 @@
 				683A6A4B14760152004C3F8C /* DictionaryTests */,
 				683A6A2614760152004C3F8C /* Frameworks */,
 				683A6A2414760152004C3F8C /* Products */,
-				AA4BCB22A4CB48EEAC5E0BC8 /* Pods.xcconfig */,
+				EFD1DCC51C5046D768E84FE8 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,7 +154,8 @@
 				683A6A2914760152004C3F8C /* Foundation.framework */,
 				683A6A2B14760152004C3F8C /* CoreGraphics.framework */,
 				683A6A4414760152004C3F8C /* SenTestingKit.framework */,
-				206B5FAD4EF0452B9D4F0FCB /* libPods.a */,
+				4A6558AFC99F6537500C51F7 /* libPods-Dictionary.a */,
+				391AAB18E4A43713746F57C0 /* libPods-DictionaryTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,6 +171,7 @@
 				68EECF931781D581000166FD /* Views */,
 				683A6A3814760152004C3F8C /* SDTAppDelegate.h */,
 				683A6A3914760152004C3F8C /* SDTAppDelegate.m */,
+				ABC3DCBB224400990039AFDB /* Images.xcassets */,
 				683A6A3014760152004C3F8C /* Supporting Files */,
 			);
 			path = Dictionary;
@@ -188,15 +180,6 @@
 		683A6A3014760152004C3F8C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6813ACDA1791122800077BA4 /* Default-Portrait@2x~ipad.png */,
-				6813ACD81791122100077BA4 /* Default-Portrait~ipad.png */,
-				6813ACD61791120D00077BA4 /* Default-Landscape@2x~ipad.png */,
-				6813ACD41791120A00077BA4 /* Default-Landscape~ipad.png */,
-				68EECFA517820883000166FD /* Default.png */,
-				68EECFA617820883000166FD /* Default-568h@2x.png */,
-				68EECFA717820883000166FD /* Default@2x.png */,
-				68EECF9B17820536000166FD /* Icon.png */,
-				68EECF9C17820536000166FD /* Icon@2x.png */,
 				683A6A3114760152004C3F8C /* Dictionary-Info.plist */,
 				683A6A3214760152004C3F8C /* InfoPlist.strings */,
 				683A6A3514760152004C3F8C /* main.m */,
@@ -258,6 +241,19 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		EFD1DCC51C5046D768E84FE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BE6809CCB019B540B8FFB5B /* Pods-Dictionary.debug.xcconfig */,
+				495D3FD0FBFCAA937DB35BF2 /* Pods-Dictionary.release.xcconfig */,
+				C16AFC41DD8D909EC8891E37 /* Pods-Dictionary.profile.xcconfig */,
+				C66EE050DB903DA8D8D6C186 /* Pods-DictionaryTests.debug.xcconfig */,
+				7DEE5374FD5DD678667A0AAB /* Pods-DictionaryTests.release.xcconfig */,
+				FB282FE20D35254B2A8B3C81 /* Pods-DictionaryTests.profile.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -265,11 +261,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 683A6A5614760152004C3F8C /* Build configuration list for PBXNativeTarget "Dictionary" */;
 			buildPhases = (
-				EBCC504F2AE843149EB35581 /* Check Pods Manifest.lock */,
+				AB54A03C396AFB1DD02A6508 /* [CP] Check Pods Manifest.lock */,
 				683A6A1F14760152004C3F8C /* Sources */,
 				683A6A2014760152004C3F8C /* Frameworks */,
 				683A6A2114760152004C3F8C /* Resources */,
-				E52E238E14A649D6BA71CDF1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,6 +279,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 683A6A5914760152004C3F8C /* Build configuration list for PBXNativeTarget "DictionaryTests" */;
 			buildPhases = (
+				076BBAD1FB13111189B3CB10 /* [CP] Check Pods Manifest.lock */,
 				683A6A3E14760152004C3F8C /* Sources */,
 				683A6A3F14760152004C3F8C /* Frameworks */,
 				683A6A4014760152004C3F8C /* Resources */,
@@ -305,7 +301,12 @@
 		683A6A1A14760151004C3F8C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 1010;
+				TargetAttributes = {
+					683A6A2214760152004C3F8C = {
+						DevelopmentTeam = VXY7TXYZ94;
+					};
+				};
 			};
 			buildConfigurationList = 683A6A1D14760151004C3F8C /* Build configuration list for PBXProject "Dictionary" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -333,15 +334,7 @@
 				683A6A3414760152004C3F8C /* InfoPlist.strings in Resources */,
 				68FDC31A1781764500D167CC /* invalidTerms.txt in Resources */,
 				68FDC31B1781764500D167CC /* validTerms.txt in Resources */,
-				68EECF9D17820536000166FD /* Icon.png in Resources */,
-				68EECF9E17820536000166FD /* Icon@2x.png in Resources */,
-				68EECFA817820883000166FD /* Default.png in Resources */,
-				68EECFA917820883000166FD /* Default-568h@2x.png in Resources */,
-				68EECFAA17820883000166FD /* Default@2x.png in Resources */,
-				6813ACD51791120A00077BA4 /* Default-Landscape~ipad.png in Resources */,
-				6813ACD71791120D00077BA4 /* Default-Landscape@2x~ipad.png in Resources */,
-				6813ACD91791122100077BA4 /* Default-Portrait~ipad.png in Resources */,
-				6813ACDB1791122800077BA4 /* Default-Portrait@2x~ipad.png in Resources */,
+				ABC3DCBC224400990039AFDB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +349,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		076BBAD1FB13111189B3CB10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DictionaryTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		683A6A4114760152004C3F8C /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,33 +384,27 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
-		E52E238E14A649D6BA71CDF1 /* Copy Pods Resources */ = {
+		AB54A03C396AFB1DD02A6508 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dictionary-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-		};
-		EBCC504F2AE843149EB35581 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -459,15 +468,30 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -475,11 +499,15 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -488,21 +516,38 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -512,48 +557,56 @@
 		};
 		683A6A5714760152004C3F8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA4BCB22A4CB48EEAC5E0BC8 /* Pods.xcconfig */;
+			baseConfigurationReference = 9BE6809CCB019B540B8FFB5B /* Pods-Dictionary.debug.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = VXY7TXYZ94;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dictionary/Dictionary-Prefix.pch";
 				INFOPLIST_FILE = "Dictionary/Dictionary-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Dictionary\"",
 				);
 				OTHER_CFLAGS = "-Wall";
+				PRODUCT_BUNDLE_IDENTIFIER = Wowfunhappy.fye.Dictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		683A6A5814760152004C3F8C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA4BCB22A4CB48EEAC5E0BC8 /* Pods.xcconfig */;
+			baseConfigurationReference = 495D3FD0FBFCAA937DB35BF2 /* Pods-Dictionary.release.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = VXY7TXYZ94;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dictionary/Dictionary-Prefix.pch";
 				INFOPLIST_FILE = "Dictionary/Dictionary-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Dictionary\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wowfunhappy.fye.Dictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		683A6A5A14760152004C3F8C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA4BCB22A4CB48EEAC5E0BC8 /* Pods.xcconfig */;
+			baseConfigurationReference = C66EE050DB903DA8D8D6C186 /* Pods-DictionaryTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dictionary.app/Dictionary";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -564,6 +617,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dictionary/Dictionary-Prefix.pch";
 				INFOPLIST_FILE = "DictionaryTests/DictionaryTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "im.fye.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -573,6 +627,7 @@
 		};
 		683A6A5B14760152004C3F8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DEE5374FD5DD678667A0AAB /* Pods-DictionaryTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dictionary.app/Dictionary";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -584,6 +639,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dictionary/Dictionary-Prefix.pch";
 				INFOPLIST_FILE = "DictionaryTests/DictionaryTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "im.fye.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -596,20 +652,37 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = NO;
@@ -618,26 +691,31 @@
 		};
 		683B3C3E178348E700DF6853 /* Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA4BCB22A4CB48EEAC5E0BC8 /* Pods.xcconfig */;
+			baseConfigurationReference = C16AFC41DD8D909EC8891E37 /* Pods-Dictionary.profile.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = VXY7TXYZ94;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dictionary/Dictionary-Prefix.pch";
 				INFOPLIST_FILE = "Dictionary/Dictionary-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/Dictionary\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = Wowfunhappy.fye.Dictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Profile;
 		};
 		683B3C3F178348E700DF6853 /* Profile */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB282FE20D35254B2A8B3C81 /* Pods-DictionaryTests.profile.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Dictionary.app/Dictionary";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -649,6 +727,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Dictionary/Dictionary-Prefix.pch";
 				INFOPLIST_FILE = "DictionaryTests/DictionaryTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "im.fye.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";

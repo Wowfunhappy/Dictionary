@@ -6,8 +6,8 @@
 //  Copyright (c) 2011 @forresty. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+//#import <SenTestingKit/SenTestingKit.h>
 
-@interface DictionaryTests : SenTestCase
+//@interface DictionaryTests : SenTestCase
 
 @end

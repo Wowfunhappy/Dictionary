@@ -33,8 +33,23 @@
 # pragma mark
 # pragma mark - View lifecycle
 
+-(void)viewWillLayoutSubviews{
+    int statusBarHeight = [[UIApplication sharedApplication] statusBarFrame].size.height;
+//    self.view.clipsToBounds = YES;
+    CGRect screenRect = [[UIScreen mainScreen] bounds];
+    CGFloat screenHeight = 0.0;
+    screenHeight = screenRect.size.height;
+    CGRect screenFrame = CGRectMake(0, statusBarHeight, self.view.frame.size.width,screenHeight-statusBarHeight);
+    CGRect viewFrame1 = [self.view convertRect:self.view.frame toView:nil];
+    if (!CGRectEqualToRect(screenFrame, viewFrame1))
+    {
+        self.view.frame = screenFrame;
+        self.view.bounds = CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height);
+    }
+}
 
 - (void)viewDidLoad {
+    self.edgesForExtendedLayout = UIRectEdgeNone;
   [super viewDidLoad];
 
   _lookupHistory = [SDTLookupHistory sharedInstance];
